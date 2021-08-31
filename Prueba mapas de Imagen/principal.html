@@ -1,0 +1,43 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>
+            Prueba de mapas de imagen
+        </h1>
+        <h2>
+            1. Instrucciones:
+        </h2>
+            <p>
+                En este documento voy a incluir una imagen de una rana, y usaré esta como mapa de imagen que te llevará a 4 Páginas distintas, 
+                dependiendo de donde hagas click.
+            </p>
+        <h2>
+            2. Direcciones:
+        </h2>
+            <p>
+                Si haces click en la parte superior de la foto, llegarás a una página con una tabla.
+            </p>
+            <p>
+                Si haces click en la parte izquierda de la foto, llegarás a una página con una serpiente.
+            </p>
+            <p>
+                Si haces click en la parte derecha de la foto, llegarás a una página con un pingüino.
+            </p>
+            <p>
+                Si haces click en la parte inferior de la foto, llegarás a una página con un koala.
+            </p>
+        <h2>
+            3. Imagen:
+        </h2>
+        <map name = "mapa">
+            <area shape="rect" coords="200,0,300,50" href="1.html" alt="Haz click aquí para ir a la tabla"/>
+            <area shape="rect" coords="0,200,50,300" href="2.html"alt="Haz click aquí para ir a la serpiente"/>
+            <area shape="rect" coords="500,200,450,300" href="3.html"alt="Haz click aquí para ir al pingüino"/>
+            <area shape="rect" coords="200,500,300,450" href="4.html"alt="Haz click aquí para ir al Koala"/>
+            </map>
+        <img src="Rana.jpg" usemap="#mapa" width="500" height="500">
+
+    </body>
+</html>
