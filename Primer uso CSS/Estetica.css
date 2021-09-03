@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+.titulo{
+    font-size: 2em;
+    font-style: Playfair Display SC;
+    color: #1624ba;
+    text-align: center;
+}
+.caja{
+    display: flex;
+    display: block;
+
+    flex-direction: column;
+    padding:20px;
+    background-color:cornsilk;
+    margin:20%;
+    margin-top: 0;
+    width:50%;
+    color:blue;
+    outline-style:dashed;
+    outline-color:red;
+}
+img.rana{
+    outline-style: solid;
+    outline-color:gold;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.texto{
+    text-align: center;
+}
